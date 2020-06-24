@@ -1,0 +1,483 @@
+{
+    "root": {
+        "tilesets": [
+            {
+                "biomes": [
+                    {
+                        "battleBackgroundSprite": "S:grass_battlescreen_extendedbackgrounds_mountain",
+                        "battleBackgroundSpriteForeground": "S:grass_battlescreen_extendedbackgrounds_mountain_foreground",
+                        "battleBackgroundSpriteSheet": "S:backgrounds/grass_battlescreen_extendedbackgrounds",
+                        "iconSprite": "S:terrain_icons_Mountain",
+                        "iconSpriteSheet": "S:ui",
+                        "portraitSprite": "S:terrain_portraits_mountain",
+                        "portraitSpriteSheet": "S:terrain/terrain_portraits",
+                        "spriteBase": "S:grass_mountain_tileset",
+                        "spriteSheet": "S:tilesets",
+                        "swapBackgroundPanes": "S:true",
+                        "types": [
+                            "S:grass"
+                        ]
+                    },
+                    {
+                        "battleBackgroundSprite": "S:snow_battlescreen_extendedbackgrounds_mountain",
+                        "battleBackgroundSpriteForeground": "S:snow_battlescreen_extendedbackgrounds_mountain_foreground",
+                        "battleBackgroundSpriteSheet": "S:backgrounds/snow_battlescreen_extendedbackgrounds",
+                        "iconSprite": "S:terrain_icons_Mountain",
+                        "iconSpriteSheet": "S:ui",
+                        "portraitSprite": "S:terrain_portraits_snow_mountain",
+                        "portraitSpriteSheet": "S:terrain/terrain_portraits",
+                        "spriteBase": "S:snow_mountain_tileset",
+                        "spriteSheet": "S:tilesets",
+                        "swapBackgroundPanes": "S:true",
+                        "types": [
+                            "S:ice"
+                        ]
+                    },
+                    {
+                        "battleBackgroundSprite": "S:sand_battlescreen_extendedbackgrounds_mountain",
+                        "battleBackgroundSpriteForeground": "S:sand_battlescreen_extendedbackgrounds_mountain_foreground",
+                        "battleBackgroundSpriteSheet": "S:backgrounds/sand_battlescreen_extendedbackgrounds",
+                        "iconSprite": "S:terrain_icons_Mountain",
+                        "iconSpriteSheet": "S:ui",
+                        "portraitSprite": "S:terrain_portraits_sand_mountains",
+                        "portraitSpriteSheet": "S:terrain/terrain_portraits",
+                        "spriteBase": "S:sand_mountain_tileset",
+                        "spriteSheet": "S:tilesets",
+                        "swapBackgroundPanes": "S:true",
+                        "types": [
+                            "S:desert"
+                        ]
+                    },
+                    {
+                        "battleBackgroundSprite": "S:volcano_battlescreen_extendedbackgrounds_mountain",
+                        "battleBackgroundSpriteForeground": "S:volcano_battlescreen_extendedbackgrounds_mountain_foreground",
+                        "battleBackgroundSpriteSheet": "S:backgrounds/volcano_battlescreen_extendedbackgrounds",
+                        "iconSprite": "S:terrain_icons_Mountain",
+                        "iconSpriteSheet": "S:ui",
+                        "portraitSprite": "S:terrain_portraits_sand_mountains",
+                        "portraitSpriteSheet": "S:terrain/terrain_portraits",
+                        "spriteBase": "S:volcano_mountain_tileset",
+                        "spriteSheet": "S:tilesets",
+                        "swapBackgroundPanes": "S:true",
+                        "types": [
+                            "S:volcano"
+                        ]
+                    }
+                ],
+                "decayTo": "S::below",
+                "id": "S:mountain",
+                "primaryConnect": [],
+                "tilesGroups": [
+                    {
+                        "tiles": [
+                            {
+                                "x": "I:0",
+                                "y": "I:0"
+                            }
+                        ]
+                    },
+                    {
+                        "tiles": [
+                            {
+                                "x": "I:1",
+                                "y": "I:0"
+                            }
+                        ]
+                    },
+                    {
+                        "tiles": [
+                            {
+                                "x": "I:2",
+                                "y": "I:0"
+                            },
+                            {
+                                "x": "I:3",
+                                "y": "I:0"
+                            },
+                            {
+                                "x": "I:4",
+                                "y": "I:0"
+                            }
+                        ]
+                    },
+                    {
+                        "tiles": [
+                            {
+                                "x": "I:5",
+                                "y": "I:0"
+                            },
+                            {
+                                "x": "I:6",
+                                "y": "I:0"
+                            },
+                            {
+                                "x": "I:7",
+                                "y": "I:0"
+                            },
+                            {
+                                "x": "I:8",
+                                "y": "I:0"
+                            },
+                            {
+                                "x": "I:9",
+                                "y": "I:0"
+                            }
+                        ]
+                    },
+                    {
+                        "tiles": [
+                            {
+                                "x": "I:0",
+                                "y": "I:1"
+                            },
+                            {
+                                "x": "I:0",
+                                "y": "I:2"
+                            },
+                            {
+                                "x": "I:0",
+                                "y": "I:3"
+                            }
+                        ]
+                    },
+                    {
+                        "tiles": [
+                            {
+                                "x": "I:1",
+                                "y": "I:1"
+                            },
+                            {
+                                "x": "I:2",
+                                "y": "I:1"
+                            }
+                        ]
+                    },
+                    {
+                        "tiles": [
+                            {
+                                "x": "I:3",
+                                "y": "I:1"
+                            },
+                            {
+                                "x": "I:4",
+                                "y": "I:1"
+                            },
+                            {
+                                "x": "I:5",
+                                "y": "I:1"
+                            },
+                            {
+                                "x": "I:6",
+                                "y": "I:1"
+                            }
+                        ]
+                    },
+                    {
+                        "tiles": [
+                            {
+                                "x": "I:7",
+                                "y": "I:1"
+                            },
+                            {
+                                "x": "I:8",
+                                "y": "I:1"
+                            },
+                            {
+                                "x": "I:9",
+                                "y": "I:1"
+                            },
+                            {
+                                "x": "I:7",
+                                "y": "I:2"
+                            },
+                            {
+                                "x": "I:8",
+                                "y": "I:2"
+                            },
+                            {
+                                "x": "I:9",
+                                "y": "I:2"
+                            },
+                            {
+                                "x": "I:7",
+                                "y": "I:3"
+                            },
+                            {
+                                "x": "I:8",
+                                "y": "I:3"
+                            },
+                            {
+                                "x": "I:9",
+                                "y": "I:3"
+                            }
+                        ]
+                    },
+                    {
+                        "tiles": [
+                            {
+                                "x": "I:1",
+                                "y": "I:2"
+                            },
+                            {
+                                "x": "I:1",
+                                "y": "I:3"
+                            }
+                        ]
+                    },
+                    {
+                        "tiles": [
+                            {
+                                "x": "I:2",
+                                "y": "I:2"
+                            },
+                            {
+                                "x": "I:3",
+                                "y": "I:2"
+                            },
+                            {
+                                "x": "I:2",
+                                "y": "I:3"
+                            },
+                            {
+                                "x": "I:3",
+                                "y": "I:3"
+                            }
+                        ]
+                    },
+                    {
+                        "tiles": [
+                            {
+                                "x": "I:4",
+                                "y": "I:2"
+                            },
+                            {
+                                "x": "I:5",
+                                "y": "I:2"
+                            },
+                            {
+                                "x": "I:6",
+                                "y": "I:2"
+                            },
+                            {
+                                "x": "I:4",
+                                "y": "I:3"
+                            },
+                            {
+                                "x": "I:5",
+                                "y": "I:3"
+                            },
+                            {
+                                "x": "I:6",
+                                "y": "I:3"
+                            }
+                        ]
+                    },
+                    {
+                        "tiles": [
+                            {
+                                "x": "I:0",
+                                "y": "I:4"
+                            },
+                            {
+                                "x": "I:1",
+                                "y": "I:4"
+                            },
+                            {
+                                "x": "I:2",
+                                "y": "I:4"
+                            },
+                            {
+                                "x": "I:3",
+                                "y": "I:4"
+                            },
+                            {
+                                "x": "I:4",
+                                "y": "I:4"
+                            },
+                            {
+                                "x": "I:5",
+                                "y": "I:4"
+                            },
+                            {
+                                "x": "I:6",
+                                "y": "I:4"
+                            }
+                        ]
+                    },
+                    {
+                        "tiles": [
+                            {
+                                "x": "I:7",
+                                "y": "I:4"
+                            },
+                            {
+                                "x": "I:5",
+                                "y": "I:5"
+                            },
+                            {
+                                "x": "I:6",
+                                "y": "I:5"
+                            },
+                            {
+                                "x": "I:7",
+                                "y": "I:5"
+                            },
+                            {
+                                "x": "I:7",
+                                "y": "I:6"
+                            }
+                        ]
+                    },
+                    {
+                        "tiles": [
+                            {
+                                "x": "I:8",
+                                "y": "I:4"
+                            },
+                            {
+                                "x": "I:8",
+                                "y": "I:5"
+                            },
+                            {
+                                "x": "I:8",
+                                "y": "I:6"
+                            },
+                            {
+                                "x": "I:8",
+                                "y": "I:7"
+                            },
+                            {
+                                "x": "I:8",
+                                "y": "I:8"
+                            }
+                        ]
+                    },
+                    {
+                        "tiles": [
+                            {
+                                "x": "I:9",
+                                "y": "I:4"
+                            },
+                            {
+                                "x": "I:9",
+                                "y": "I:5"
+                            },
+                            {
+                                "x": "I:9",
+                                "y": "I:6"
+                            },
+                            {
+                                "x": "I:9",
+                                "y": "I:7"
+                            }
+                        ]
+                    },
+                    {
+                        "tiles": [
+                            {
+                                "x": "I:0",
+                                "y": "I:5"
+                            },
+                            {
+                                "x": "I:1",
+                                "y": "I:5"
+                            },
+                            {
+                                "x": "I:2",
+                                "y": "I:5"
+                            },
+                            {
+                                "x": "I:1",
+                                "y": "I:6"
+                            }
+                        ]
+                    },
+                    {
+                        "tiles": [
+                            {
+                                "x": "I:3",
+                                "y": "I:5"
+                            },
+                            {
+                                "x": "I:2",
+                                "y": "I:6"
+                            },
+                            {
+                                "x": "I:3",
+                                "y": "I:6"
+                            },
+                            {
+                                "x": "I:3",
+                                "y": "I:7"
+                            }
+                        ]
+                    },
+                    {
+                        "tiles": [
+                            {
+                                "x": "I:4",
+                                "y": "I:5"
+                            },
+                            {
+                                "x": "I:4",
+                                "y": "I:6"
+                            },
+                            {
+                                "x": "I:5",
+                                "y": "I:6"
+                            },
+                            {
+                                "x": "I:4",
+                                "y": "I:7"
+                            }
+                        ]
+                    },
+                    {
+                        "tiles": [
+                            {
+                                "x": "I:0",
+                                "y": "I:6"
+                            },
+                            {
+                                "x": "I:0",
+                                "y": "I:7"
+                            },
+                            {
+                                "x": "I:1",
+                                "y": "I:7"
+                            },
+                            {
+                                "x": "I:2",
+                                "y": "I:7"
+                            },
+                            {
+                                "x": "I:0",
+                                "y": "I:8"
+                            }
+                        ]
+                    },
+                    {
+                        "tiles": [
+                            {
+                                "x": "I:6",
+                                "y": "I:6"
+                            },
+                            {
+                                "x": "I:5",
+                                "y": "I:7"
+                            },
+                            {
+                                "x": "I:6",
+                                "y": "I:7"
+                            },
+                            {
+                                "x": "I:7",
+                                "y": "I:7"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

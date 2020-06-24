@@ -1,0 +1,199 @@
+{
+    "root": {
+        "tilesets": [
+            {
+                "biomes": [
+                    {
+                        "battleBackgroundSprite": "S:grass_battlescreen_extendedbackgrounds_road",
+                        "battleBackgroundSpriteForeground": "S:grass_battlescreen_extendedbackgrounds_road_foreground",
+                        "battleBackgroundSpriteSheet": "S:backgrounds/grass_battlescreen_extendedbackgrounds",
+                        "fillColour": "S:#92b141",
+                        "iconSprite": "S:terrain_icons_Road",
+                        "iconSpriteSheet": "S:ui",
+                        "infoScreenOffset": "I:80",
+                        "portraitSprite": "S:terrain_portraits_road",
+                        "portraitSpriteSheet": "S:terrain/terrain_portraits",
+                        "spriteBase": "S:grass_road_tileset",
+                        "spriteSheet": "S:tilesets",
+                        "types": [
+                            "S:grass"
+                        ]
+                    },
+                    {
+                        "battleBackgroundSprite": "S:snow_battlescreen_extendedbackgrounds_road",
+                        "battleBackgroundSpriteForeground": "S:snow_battlescreen_extendedbackgrounds_road_foreground",
+                        "battleBackgroundSpriteSheet": "S:backgrounds/snow_battlescreen_extendedbackgrounds",
+                        "fillColour": "S:#aec6e3",
+                        "iconSprite": "S:terrain_icons_Road",
+                        "iconSpriteSheet": "S:ui",
+                        "infoScreenOffset": "I:80",
+                        "portraitSprite": "S:terrain_portraits_snow_road",
+                        "portraitSpriteSheet": "S:terrain/terrain_portraits",
+                        "spriteBase": "S:snow_road_tileset",
+                        "spriteSheet": "S:tilesets",
+                        "types": [
+                            "S:ice"
+                        ]
+                    },
+                    {
+                        "battleBackgroundSprite": "S:sand_battlescreen_extendedbackgrounds_road",
+                        "battleBackgroundSpriteForeground": "S:sand_battlescreen_extendedbackgrounds_road_foreground",
+                        "battleBackgroundSpriteSheet": "S:backgrounds/sand_battlescreen_extendedbackgrounds",
+                        "fillColour": "S:#987647",
+                        "iconSprite": "S:terrain_icons_Road",
+                        "iconSpriteSheet": "S:ui",
+                        "infoScreenOffset": "I:80",
+                        "portraitSprite": "S:terrain_portraits_sand_road",
+                        "portraitSpriteSheet": "S:terrain/terrain_portraits",
+                        "spriteBase": "S:sand_road_tileset",
+                        "spriteSheet": "S:tilesets",
+                        "types": [
+                            "S:desert"
+                        ]
+                    },
+                    {
+                        "battleBackgroundSprite": "S:volcano_battlescreen_extendedbackgrounds_road",
+                        "battleBackgroundSpriteForeground": "S:volcano_battlescreen_extendedbackgrounds_road_foreground",
+                        "battleBackgroundSpriteSheet": "S:backgrounds/volcano_battlescreen_extendedbackgrounds",
+                        "fillColour": "S:#6d5e56",
+                        "iconSprite": "S:terrain_icons_Road",
+                        "iconSpriteSheet": "S:ui",
+                        "infoScreenOffset": "I:80",
+                        "portraitSprite": "S:terrain_portraits_sand_road",
+                        "portraitSpriteSheet": "S:terrain/terrain_portraits",
+                        "spriteBase": "S:volcano_road_tileset",
+                        "spriteSheet": "S:tilesets",
+                        "types": [
+                            "S:volcano"
+                        ]
+                    }
+                ],
+                "decayTo": "S::below",
+                "id": "S:road",
+                "primaryConnect": [
+                    "S:undefined",
+                    "S:road",
+                    "S:bridge"
+                ],
+                "tiles": [
+                    {
+                        "adj": "S:e s",
+                        "x": "I:0",
+                        "y": "I:0"
+                    },
+                    {
+                        "adj": "S:w e",
+                        "x": "I:1",
+                        "y": "I:0"
+                    },
+                    {
+                        "adj": "S:w s",
+                        "x": "I:2",
+                        "y": "I:0"
+                    },
+                    {
+                        "adj": "S:w e s",
+                        "x": "I:3",
+                        "y": "I:0"
+                    },
+                    {
+                        "adj": "S:n e s",
+                        "x": "I:4",
+                        "y": "I:0"
+                    },
+                    {
+                        "adj": "S:n s",
+                        "x": "I:0",
+                        "y": "I:1"
+                    },
+                    {
+                        "adj": "S:",
+                        "default": "S:true",
+                        "x": "I:1",
+                        "y": "I:1"
+                    },
+                    {
+                        "adj": "S:n s",
+                        "x": "I:2",
+                        "y": "I:1"
+                    },
+                    {
+                        "adj": "S:w n e",
+                        "x": "I:3",
+                        "y": "I:1"
+                    },
+                    {
+                        "adj": "S:n w s",
+                        "x": "I:4",
+                        "y": "I:1"
+                    },
+                    {
+                        "adj": "S:n e",
+                        "x": "I:0",
+                        "y": "I:2"
+                    },
+                    {
+                        "adj": "S:e w",
+                        "x": "I:1",
+                        "y": "I:2"
+                    },
+                    {
+                        "adj": "S:w n",
+                        "x": "I:2",
+                        "y": "I:2"
+                    },
+                    {
+                        "adj": "S:s",
+                        "x": "I:3",
+                        "y": "I:2"
+                    },
+                    {
+                        "adj": "S:n w s e",
+                        "x": "I:4",
+                        "y": "I:2"
+                    },
+                    {
+                        "adj": "S:e",
+                        "x": "I:0",
+                        "y": "I:3"
+                    },
+                    {
+                        "adj": "S:w",
+                        "x": "I:1",
+                        "y": "I:3"
+                    },
+                    {
+                        "adj": "S:n",
+                        "x": "I:3",
+                        "y": "I:3"
+                    },
+                    {
+                        "adj": "S:n s",
+                        "x": "I:4",
+                        "y": "I:3"
+                    },
+                    {
+                        "adj": "S:e w",
+                        "x": "I:5",
+                        "y": "I:3"
+                    },
+                    {
+                        "adj": "S:e w",
+                        "x": "I:6",
+                        "y": "I:3"
+                    },
+                    {
+                        "adj": "S:n s",
+                        "x": "I:4",
+                        "y": "I:4"
+                    },
+                    {
+                        "adj": "S:e w",
+                        "x": "I:5",
+                        "y": "I:4"
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,181 @@
+{
+    "root": {
+        "tilesets": [
+            {
+                "biomes": [
+                    {
+                        "battleBackgroundSprite": "S:grass_battlescreen_extendedbackgrounds_forest",
+                        "battleBackgroundSpriteForeground": "S:grass_battlescreen_extendedbackgrounds_forest_foreground",
+                        "battleBackgroundSpriteSheet": "S:backgrounds/grass_battlescreen_extendedbackgrounds",
+                        "fillColour": "S:#7fa33b",
+                        "iconSprite": "S:terrain_icons_Forest",
+                        "iconSpriteSheet": "S:ui",
+                        "maxRandomElements": "I:4",
+                        "minRandomElements": "I:2",
+                        "portraitSprite": "S:terrain_portraits_forest",
+                        "portraitSpriteSheet": "S:terrain/terrain_portraits",
+                        "randomElements": [
+                            {
+                                "shadowSprite": "S:shadows_small",
+                                "shadowSpriteSheet": "S:fx/shadows",
+                                "sprite": "S:terrain/trees/grass/cone_small"
+                            },
+                            {
+                                "shadowSprite": "S:shadows_medium",
+                                "shadowSpriteSheet": "S:fx/shadows",
+                                "sprite": "S:terrain/trees/grass/cone_medium"
+                            },
+                            {
+                                "shadowSprite": "S:shadows_large",
+                                "shadowSpriteSheet": "S:fx/shadows",
+                                "sprite": "S:terrain/trees/grass/cone_big"
+                            },
+                            {
+                                "shadowSprite": "S:shadows_small",
+                                "shadowSpriteSheet": "S:fx/shadows",
+                                "sprite": "S:terrain/trees/grass/round_small"
+                            },
+                            {
+                                "shadowSprite": "S:shadows_medium",
+                                "shadowSpriteSheet": "S:fx/shadows",
+                                "sprite": "S:terrain/trees/grass/round_medium"
+                            },
+                            {
+                                "shadowSprite": "S:shadows_large",
+                                "shadowSpriteSheet": "S:fx/shadows",
+                                "sprite": "S:terrain/trees/grass/round_big"
+                            }
+                        ],
+                        "types": [
+                            "S:grass"
+                        ]
+                    },
+                    {
+                        "battleBackgroundSprite": "S:snow_battlescreen_extendedbackgrounds_forest",
+                        "battleBackgroundSpriteForeground": "S:snow_battlescreen_extendedbackgrounds_forest_foreground",
+                        "battleBackgroundSpriteSheet": "S:backgrounds/snow_battlescreen_extendedbackgrounds",
+                        "fillColour": "S:#aec6e3",
+                        "iconSprite": "S:terrain_icons_Forest",
+                        "iconSpriteSheet": "S:ui",
+                        "maxRandomElements": "I:3",
+                        "minRandomElements": "I:2",
+                        "portraitSprite": "S:terrain_portraits_snow_forest",
+                        "portraitSpriteSheet": "S:terrain/terrain_portraits",
+                        "randomElements": [
+                            {
+                                "shadowSprite": "S:shadows_small",
+                                "shadowSpriteSheet": "S:fx/shadows",
+                                "sprite": "S:terrain/trees/ice/snowround_small"
+                            },
+                            {
+                                "shadowSprite": "S:shadows_medium",
+                                "shadowSpriteSheet": "S:fx/shadows",
+                                "sprite": "S:terrain/trees/ice/snowround_medium"
+                            },
+                            {
+                                "shadowSprite": "S:shadows_large",
+                                "shadowSpriteSheet": "S:fx/shadows",
+                                "sprite": "S:terrain/trees/ice/snowround_big"
+                            },
+                            {
+                                "shadowSprite": "S:shadows_small",
+                                "shadowSpriteSheet": "S:fx/shadows",
+                                "sprite": "S:terrain/trees/ice/snowcone_small"
+                            },
+                            {
+                                "shadowSprite": "S:shadows_medium",
+                                "shadowSpriteSheet": "S:fx/shadows",
+                                "sprite": "S:terrain/trees/ice/snowcone_medium"
+                            },
+                            {
+                                "shadowSprite": "S:shadows_large",
+                                "shadowSpriteSheet": "S:fx/shadows",
+                                "sprite": "S:terrain/trees/ice/snowcone_big"
+                            }
+                        ],
+                        "types": [
+                            "S:ice"
+                        ]
+                    },
+                    {
+                        "battleBackgroundSprite": "S:sand_battlescreen_extendedbackgrounds_forest",
+                        "battleBackgroundSpriteForeground": "S:sand_battlescreen_extendedbackgrounds_forest_foreground",
+                        "battleBackgroundSpriteSheet": "S:backgrounds/sand_battlescreen_extendedbackgrounds",
+                        "fillColour": "S:#987647",
+                        "iconSprite": "S:terrain_icons_Forest",
+                        "iconSpriteSheet": "S:ui",
+                        "maxRandomElements": "I:3",
+                        "minRandomElements": "I:2",
+                        "portraitSprite": "S:terrain_portraits_sand_forest",
+                        "portraitSpriteSheet": "S:terrain/terrain_portraits",
+                        "randomElements": [
+                            {
+                                "shadowSprite": "S:shadows_small",
+                                "shadowSpriteSheet": "S:fx/shadows",
+                                "sprite": "S:terrain/trees/desert/palm_small"
+                            },
+                            {
+                                "shadowSprite": "S:shadows_medium",
+                                "shadowSpriteSheet": "S:fx/shadows",
+                                "sprite": "S:terrain/trees/desert/palm_medium"
+                            },
+                            {
+                                "shadowSprite": "S:shadows_large",
+                                "shadowSpriteSheet": "S:fx/shadows",
+                                "sprite": "S:terrain/trees/desert/palm_big"
+                            },
+                            {
+                                "shadowSprite": "S:shadows_large",
+                                "shadowSpriteSheet": "S:fx/shadows",
+                                "sprite": "S:terrain/trees/desert/cactus_big"
+                            },
+                            {
+                                "shadowSprite": "S:shadows_small",
+                                "shadowSpriteSheet": "S:fx/shadows",
+                                "sprite": "S:terrain/trees/desert/shrub_medium"
+                            }
+                        ],
+                        "types": [
+                            "S:desert"
+                        ]
+                    },
+                    {
+                        "battleBackgroundSprite": "S:volcano_battlescreen_extendedbackgrounds_forest",
+                        "battleBackgroundSpriteForeground": "S:volcano_battlescreen_extendedbackgrounds_forest_foreground",
+                        "battleBackgroundSpriteSheet": "S:backgrounds/volcano_battlescreen_extendedbackgrounds",
+                        "fillColour": "S:#6d5e56",
+                        "iconSprite": "S:terrain_icons_Forest",
+                        "iconSpriteSheet": "S:ui",
+                        "maxRandomElements": "I:3",
+                        "minRandomElements": "I:2",
+                        "portraitSprite": "S:terrain_portraits_sand_forest",
+                        "portraitSpriteSheet": "S:terrain/terrain_portraits",
+                        "randomElements": [
+                            {
+                                "shadowSprite": "S:shadows_small",
+                                "shadowSpriteSheet": "S:fx/shadows",
+                                "sprite": "S:terrain/trees/volcano/dry_small"
+                            },
+                            {
+                                "shadowSprite": "S:shadows_medium",
+                                "shadowSpriteSheet": "S:fx/shadows",
+                                "sprite": "S:terrain/trees/volcano/dry_medium"
+                            },
+                            {
+                                "shadowSprite": "S:shadows_large",
+                                "shadowSpriteSheet": "S:fx/shadows",
+                                "sprite": "S:terrain/trees/volcano/dry_big"
+                            }
+                        ],
+                        "types": [
+                            "S:volcano"
+                        ]
+                    }
+                ],
+                "decayTo": "S::below",
+                "id": "S:forest",
+                "primaryConnect": []
+            }
+        ]
+    }
+}

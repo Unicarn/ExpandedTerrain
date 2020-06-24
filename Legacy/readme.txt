@@ -1,0 +1,1 @@
+These versions of Expanded Terrain used the Unofficial Modpacker and are not compatible with the Official Modpacker.

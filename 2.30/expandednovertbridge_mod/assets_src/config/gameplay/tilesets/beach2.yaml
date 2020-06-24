@@ -1,0 +1,8 @@
+---
+tilesets:     
+  - id: beach2
+    biomes:
+      - types: [grass, ice, desert, volcano]     
+        iconSpriteSheet: ui_UniExpandedNoVert
+        iconSprite: ":img:ui/terrains/icons/beach2.png"
+...

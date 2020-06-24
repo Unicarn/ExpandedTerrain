@@ -1,0 +1,8 @@
+---
+tilesets:     
+  - id: carpet0
+    biomes:
+      - types: [grass, ice, desert, volcano]     
+        iconSpriteSheet: ui_UniExpandedNoHor
+        iconSprite: ":img:ui/terrains/icons/carpet0.png"
+...

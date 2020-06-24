@@ -1,0 +1,8 @@
+---
+tilesets:     
+  - id: beach0
+    biomes:
+      - types: [grass, ice, desert, volcano]     
+        iconSpriteSheet: ui_UniExpandedRandomBridge
+        iconSprite: ":img:ui/terrains/icons/beach0.png"
+...

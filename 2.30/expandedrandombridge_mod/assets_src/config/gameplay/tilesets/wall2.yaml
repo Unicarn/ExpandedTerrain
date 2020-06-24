@@ -1,0 +1,8 @@
+---
+tilesets:     
+  - id: wall2
+    biomes:
+      - types: [grass, ice, desert, volcano]
+        iconSpriteSheet: ui_UniExpandedRandomBridge
+        iconSprite: ":img:ui/terrains/icons/wall2.png"
+...

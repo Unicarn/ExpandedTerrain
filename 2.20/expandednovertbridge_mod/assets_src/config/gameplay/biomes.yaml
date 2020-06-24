@@ -1,0 +1,8 @@
+---
+
+biomes:
+  - id: volcano
+    name: biome_name_volcano
+    severeWeather: ash
+
+...

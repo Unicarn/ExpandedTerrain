@@ -1,0 +1,8 @@
+---
+tilesets:     
+  - id: cobblestone0
+    biomes:
+      - types: [grass, ice, desert, volcano]     
+        iconSpriteSheet: ui_UniExpandedNoVert
+        iconSprite: ":img:ui/terrains/icons/cobblestone0.png"
+...

@@ -1,0 +1,8 @@
+---
+tilesets:     
+  - id: wall0
+    biomes:
+      - types: [grass, ice, desert, volcano]
+        iconSpriteSheet: ui_UniExpandedTerrain
+        iconSprite: ":img:ui/terrains/icons/wall0.png"
+...

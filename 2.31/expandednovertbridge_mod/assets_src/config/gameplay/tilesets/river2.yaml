@@ -1,0 +1,8 @@
+---
+tilesets:     
+  - id: river2
+    biomes:
+      - types: [grass, ice, desert, volcano]
+        iconSpriteSheet: ui_UniExpandedNoVert
+        iconSprite: ":img:ui/terrains/icons/river2.png"
+...

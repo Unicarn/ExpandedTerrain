@@ -1,0 +1,8 @@
+---
+tilesets:     
+  - id: carpet1
+    biomes:
+      - types: [grass, ice, desert, volcano]     
+        iconSpriteSheet: ui_UniExpandedRandomBridge
+        iconSprite: ":img:ui/terrains/icons/carpet1.png"
+...

@@ -1,0 +1,8 @@
+---
+tilesets:     
+  - id: volcano0
+    biomes:
+      - types: [grass, ice, desert, volcano]
+        iconSpriteSheet: ui_UniExpandedNoVert
+        iconSprite: ":img:ui/terrains/icons/volcano0.png"
+...

@@ -1,0 +1,8 @@
+---
+tilesets:     
+  - id: reef2
+    biomes:
+      - types: [grass, ice, desert, volcano]
+        iconSpriteSheet: ui_UniExpandedTerrain
+        iconSprite: ":img:ui/terrains/icons/reef2.png"
+...

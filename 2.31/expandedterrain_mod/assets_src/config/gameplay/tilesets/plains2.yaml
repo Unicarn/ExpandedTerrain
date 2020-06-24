@@ -1,0 +1,8 @@
+---
+tilesets:     
+  - id: plains2
+    biomes:
+      - types: [grass, ice, desert, volcano]
+        iconSpriteSheet: ui_UniExpandedTerrain
+        iconSprite: ":img:ui/terrains/icons/plains2.png"
+...

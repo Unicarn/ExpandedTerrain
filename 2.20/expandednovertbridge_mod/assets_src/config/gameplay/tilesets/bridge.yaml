@@ -1,0 +1,106 @@
+---
+tilesets:     
+  - id: bridge
+    biomes:
+      - types: [grass]
+        spriteSheet: tilesets
+        spriteBase: bridge_tileset_000
+        waterSpriteBase: bridge_tileset_002
+        battleBackgroundSpriteSheet: backgrounds/grass_battlescreen_extendedbackgrounds
+        battleBackgroundSprite: grass_battlescreen_extendedbackgrounds_bridge
+        battleBackgroundSpriteForeground: grass_battlescreen_extendedbackgrounds_bridge_foreground
+        portraitSpriteSheet: terrain/terrain_portraits
+        portraitSprite: terrain_portraits_road      
+        iconSpriteSheet: ui
+        iconSprite: terrain_icons_Bridge
+        infoScreenOffset: 75
+        fillColour: '#2a2542'
+      - types: [ice]
+        spriteSheet: tilesets
+        spriteBase: bridge_tileset_000
+        waterSpriteBase: bridge_tileset_002
+        battleBackgroundSpriteSheet: backgrounds/snow_battlescreen_extendedbackgrounds
+        battleBackgroundSprite: snow_battlescreen_extendedbackgrounds_bridge
+        battleBackgroundSpriteForeground: snow_battlescreen_extendedbackgrounds_bridge_foreground
+        portraitSpriteSheet: terrain/terrain_portraits
+        portraitSprite: terrain_portraits_snow_road       
+        iconSpriteSheet: ui
+        iconSprite: terrain_icons_Bridge
+        infoScreenOffset: 75
+        fillColour: '#2a2542'
+      - types: [desert]
+        spriteSheet: tilesets
+        spriteBase: bridge_tileset_000
+        waterSpriteBase: bridge_tileset_002
+        battleBackgroundSpriteSheet: backgrounds/sand_battlescreen_extendedbackgrounds
+        battleBackgroundSprite: sand_battlescreen_extendedbackgrounds_bridge
+        battleBackgroundSpriteForeground: sand_battlescreen_extendedbackgrounds_bridge_foreground
+        portraitSpriteSheet: terrain/terrain_portraits
+        portraitSprite: terrain_portraits_sand_road       
+        iconSpriteSheet: ui
+        iconSprite: terrain_icons_Bridge
+        infoScreenOffset: 75
+        fillColour: '#2a2542'
+      - types: [volcano]
+        spriteSheet: tilesets
+        spriteBase: bridge_tileset_000
+        waterSpriteBase: bridge_tileset_002
+        battleBackgroundSpriteSheet: backgrounds/sand_battlescreen_extendedbackgrounds
+        battleBackgroundSprite: sand_battlescreen_extendedbackgrounds_bridge
+        battleBackgroundSpriteForeground: sand_battlescreen_extendedbackgrounds_bridge_foreground
+        portraitSpriteSheet: terrain/terrain_portraits
+        portraitSprite: terrain_portraits_sand_bridge      
+        iconSpriteSheet: ui
+        iconSprite: terrain_icons_Bridge
+        infoScreenOffset: 75
+        fillColour: '#2a2542'
+    primaryConnect: [undefined, bridge]
+    secondaryConnect: [plains, forest, mountain, road, wall, cobblestone, carpet]
+    decayTo: sea
+    tiles:
+      - { x: 0, y: 0, adj: "!w !e" }
+      - { x: 0, y: 0, adj: "!w !e n" }
+      - { x: 0, y: 0, adj: "!w !e s" }
+      - { x: 0, y: 0, adj: "!w !e n s" }
+      - { x: 1, y: 0, adj: "!w e" }
+      - { x: 1, y: 0, adj: "!w e n" }
+      - { x: 1, y: 0, adj: "!w e s" }
+      - { x: 1, y: 0, adj: "!w e n s" }
+      - { x: 1, y: 0, adj: "!w" }
+      - { x: 1, y: 0, adj: "!w n" }
+      - { x: 1, y: 0, adj: "!w s" }
+      - { x: 1, y: 0, adj: "!w n s" }
+      - { x: 2, y: 0, adj: "w e" }
+      - { x: 2, y: 0, adj: "w e n" }
+      - { x: 2, y: 0, adj: "w e s" }
+      - { x: 2, y: 0, adj: "w e n s" }
+      - { x: 2, y: 0, adj: "w" }
+      - { x: 2, y: 0, adj: "w n" }
+      - { x: 2, y: 0, adj: "w s" }
+      - { x: 2, y: 0, adj: "w n s" }
+      - { x: 2, y: 0, adj: "e" }
+      - { x: 2, y: 0, adj: "e n" }
+      - { x: 2, y: 0, adj: "e s" }
+      - { x: 2, y: 0, adj: "e n s" }
+      - { x: 3, y: 0, adj: "w !e" }
+      - { x: 3, y: 0, adj: "w !e n" }
+      - { x: 3, y: 0, adj: "w !e s" }
+      - { x: 3, y: 0, adj: "w !e n s" }
+      - { x: 3, y: 0, adj: "!e" }
+      - { x: 3, y: 0, adj: "!e n" }
+      - { x: 3, y: 0, adj: "!e s" }
+      - { x: 3, y: 0, adj: "!e n s" }
+
+      - { x: 0, y: 1, adj: "!n s" }
+      - { x: 0, y: 1, adj: "!n" }
+      - { x: 1, y: 1, adj: "!n !s" }
+  
+      - { x: 0, y: 2, adj: "n s" }
+      - { x: 0, y: 2, adj: "n" }
+      - { x: 0, y: 2, adj: "s" }
+
+      - { x: 0, y: 3, adj: "n !s" }
+      - { x: 0, y: 3, adj: "!s" }
+      - { x: 3, y: 3, adj: '', default: true }
+
+...

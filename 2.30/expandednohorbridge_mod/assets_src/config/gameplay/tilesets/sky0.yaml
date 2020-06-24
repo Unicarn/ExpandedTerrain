@@ -1,0 +1,8 @@
+---
+tilesets:     
+  - id: sky0
+    biomes:
+      - types: [grass, ice, desert, volcano]
+        iconSpriteSheet: ui
+        iconSprite: terrain_icons_sky
+...
